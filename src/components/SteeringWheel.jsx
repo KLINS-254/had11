@@ -1,7 +1,7 @@
 import React from 'react';
 
 /** Scalable SVG steering wheel for the bus driver's cockpit. */
-export default function SteeringWheel({ size = 42, title = 'Driver steering wheel' }) {
+export default function SteeringWheel({ size = 24, title = 'Driver steering wheel' }) {
   return <svg width={size} height={size} viewBox="0 0 100 100" role="img" aria-label={title} className="steering-wheel-svg">
     <title>{title}</title>
     <circle cx="50" cy="50" r="39" fill="#242a31" stroke="#111820" strokeWidth="5" />
